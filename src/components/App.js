@@ -4,19 +4,20 @@ import '../styles/App.css';
 class Odd extends React.Component {
 
   render() {
-    console.log("Even is unmounted");
+    console.log("Odd is unmounted");
     return (
       <div id="odd">
         I am odd
       </div>
     )
+    
   }
 }
 
 class Even extends React.Component {
 
   render() {
-    console.log("Odd is unmounted");
+    console.log("Even is unmounted");
     return (
       <div id="even">
         I am even
