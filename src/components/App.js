@@ -2,9 +2,12 @@ import React from 'react'
 import '../styles/App.css';
 
 class Odd extends React.Component {
-  componentDidMount(){
-    console.log("Odd is unmounted");
+  componentWillUnmount(){
+    console.log("Odd is unmounted")
   }
+  // compo(){
+  //   console.log("Odd is unmounted");
+  // }
 
   render() {
     // console.log("Odd is unmounted");
@@ -18,8 +21,8 @@ class Odd extends React.Component {
 }
 
 class Even extends React.Component {
-  componentDidMount(){
-    console.log("Even is unmounted");
+  componentWillUnmount(){
+    console.log("Odd is unmounted")
   }
 
   render() { 
