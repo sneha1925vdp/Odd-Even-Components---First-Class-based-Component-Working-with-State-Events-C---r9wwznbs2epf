@@ -22,7 +22,7 @@ class Odd extends React.Component {
 
 class Even extends React.Component {
   componentWillUnmount(){
-    console.log("Odd is unmounted")
+    console.log("Even is unmounted")
   }
 
   render() { 
